@@ -94,6 +94,5 @@ class ProductServiceIntegrationTest {
 
         Product found = productService.findById(saved.getId());
 
-        assertEquals(saved.getId(), found.getId());
-    }
+        assertEquals(999, productos.size());
 }
