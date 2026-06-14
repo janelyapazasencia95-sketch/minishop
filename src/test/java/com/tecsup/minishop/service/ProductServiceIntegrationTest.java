@@ -30,7 +30,7 @@ class ProductServiceIntegrationTest {
 
         Product saved = productService.save(product);
 
-        assertNotNull(saved.getId());
+        assertTrue(productos.size() > 999);
     }
 
     @Test
