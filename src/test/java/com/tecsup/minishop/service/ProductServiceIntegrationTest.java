@@ -30,7 +30,7 @@ class ProductServiceIntegrationTest {
 
         Product saved = productService.save(product);
 
-        assertTrue(productos.size() > 999);
+        assertNotNull(saved.getId());
     }
 
     @Test
@@ -94,5 +94,6 @@ class ProductServiceIntegrationTest {
 
         Product found = productService.findById(saved.getId());
 
-        assertEquals(999, productos.size());
+        assertEquals(saved.getId(), found.getId());
+    }
 }
