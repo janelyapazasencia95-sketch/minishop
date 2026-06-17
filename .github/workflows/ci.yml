@@ -46,7 +46,8 @@ jobs:
           ./mvnw sonar:sonar
           --no-transfer-progress
           -Dsonar.projectKey=janelyapazasencia95-sketch_minishop
-          -Dsonar.organization=${{ secrets.SONAR_ORG }}
+          -Dsonar.organization=janelyapazasencia95-sketch
+          -Dsonar.host.url=https://sonarcloud.io
 
       - name: 8 - Publicar reporte de pruebas y cobertura
         uses: actions/upload-artifact@v4
