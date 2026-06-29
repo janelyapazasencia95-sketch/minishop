@@ -1,0 +1,10 @@
+INSERT INTO products (name, price, stock) VALUES ('Laptop Lenovo', 2500.00, 10);
+INSERT INTO products (name, price, stock) VALUES ('Mouse Logitech', 45.90, 30);
+INSERT INTO products (name, price, stock) VALUES ('Teclado Redragon', 120.00, 20);
+INSERT INTO products (name, price, stock) VALUES ('Monitor Samsung 24', 680.00, 12);
+INSERT INTO products (name, price, stock) VALUES ('Audifonos JBL', 150.00, 25);
+INSERT INTO products (name, price, stock) VALUES ('Webcam HD', 95.00, 15);
+INSERT INTO products (name, price, stock) VALUES ('Memoria USB 64GB', 35.00, 40);
+INSERT INTO products (name, price, stock) VALUES ('Disco SSD 480GB', 210.00, 18);
+INSERT INTO products (name, price, stock) VALUES ('Impresora Epson', 780.00, 8);
+INSERT INTO products (name, price, stock) VALUES ('Router TP-Link', 110.00, 16);

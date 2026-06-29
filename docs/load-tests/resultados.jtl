@@ -1,0 +1,551 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1782698475136,54,GET /api/products,500,,TG-01: Consulta de Catálogo 1-1,text,false,,257,188,1,2,http://localhost:8080/api/products,48,0,31
+1782698475136,54,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-1,text,false,,259,190,1,2,http://localhost:8080/api/products/1,48,0,31
+1782698475194,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-1,text,false,,257,188,1,2,http://localhost:8080/api/products,8,0,1
+1782698475194,16,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-1,text,false,,259,190,1,2,http://localhost:8080/api/products/1,15,0,1
+1782698475203,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-1,text,false,,257,188,1,2,http://localhost:8080/api/products,10,0,1
+1782698475210,14,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-1,text,false,,259,190,1,1,http://localhost:8080/api/products/1,14,0,1
+1782698475225,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-1,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,1
+1782698475239,14,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-1,text,false,,259,190,1,2,http://localhost:8080/api/products/1,14,0,2
+1782698475250,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-2,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698475258,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-2,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698475266,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-2,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698475396,14,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-2,text,false,,259,190,1,1,http://localhost:8080/api/products/1,14,0,2
+1782698475411,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-2,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698475425,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-2,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698475438,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-2,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,1
+1782698475451,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-2,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698475549,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-3,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698475557,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-3,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698475566,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-3,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698475796,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-3,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698475809,20,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-3,text,false,,259,190,1,1,http://localhost:8080/api/products/1,19,0,1
+1782698475829,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-3,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,1
+1782698475842,15,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-3,text,false,,259,190,1,2,http://localhost:8080/api/products/1,15,0,2
+1782698475846,12,GET /api/products,500,,TG-01: Consulta de Catálogo 1-4,text,false,,257,188,1,2,http://localhost:8080/api/products,12,0,1
+1782698475859,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-4,text,false,,257,188,1,2,http://localhost:8080/api/products,10,0,1
+1782698475857,14,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-3,text,false,,259,190,1,2,http://localhost:8080/api/products/1,14,0,2
+1782698475870,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-4,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,0
+1782698476145,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-5,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,2
+1782698476154,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-5,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698476161,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-5,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698476196,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-4,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698476208,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-4,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698476221,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-4,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698476233,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-4,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698476245,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-4,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698476444,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-6,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698476453,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-6,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698476462,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-6,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698476615,28,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-5,text,false,,259,190,1,1,http://localhost:8080/api/products/1,28,0,2
+1782698476644,16,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-5,text,false,,259,190,1,1,http://localhost:8080/api/products/1,16,0,1
+1782698476661,17,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-5,text,false,,259,190,1,1,http://localhost:8080/api/products/1,17,0,1
+1782698476678,18,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-5,text,false,,259,190,1,1,http://localhost:8080/api/products/1,18,0,2
+1782698476697,17,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-5,text,false,,259,190,1,1,http://localhost:8080/api/products/1,17,0,1
+1782698476747,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-7,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698476756,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-7,text,false,,257,188,1,1,http://localhost:8080/api/products,10,0,1
+1782698476767,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-7,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,1
+1782698477026,20,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-6,text,false,,259,190,1,2,http://localhost:8080/api/products/1,19,0,1
+1782698477045,15,GET /api/products,500,,TG-01: Consulta de Catálogo 1-8,text,false,,257,188,1,2,http://localhost:8080/api/products,15,0,1
+1782698477046,22,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-6,text,false,,259,190,1,2,http://localhost:8080/api/products/1,22,0,1
+1782698477061,13,GET /api/products,500,,TG-01: Consulta de Catálogo 1-8,text,false,,257,188,1,2,http://localhost:8080/api/products,12,0,1
+1782698477069,15,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-6,text,false,,259,190,1,2,http://localhost:8080/api/products/1,14,0,1
+1782698477074,11,GET /api/products,500,,TG-01: Consulta de Catálogo 1-8,text,false,,257,188,1,2,http://localhost:8080/api/products,11,0,1
+1782698477084,15,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-6,text,false,,259,190,1,1,http://localhost:8080/api/products/1,15,0,2
+1782698477100,16,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-6,text,false,,259,190,1,1,http://localhost:8080/api/products/1,16,0,1
+1782698477343,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-9,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698477351,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-9,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698477359,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-9,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698477395,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-7,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698477408,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-7,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698477420,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-7,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698477432,10,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-7,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,0
+1782698477443,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-7,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698477644,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-10,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698477653,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-10,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,1
+1782698477664,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-10,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,2
+1782698477797,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-8,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,2
+1782698477809,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-8,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,1
+1782698477822,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-8,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,1
+1782698477835,10,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-8,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,1
+1782698477846,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-8,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698477945,13,GET /api/products,500,,TG-01: Consulta de Catálogo 1-11,text,false,,257,188,1,1,http://localhost:8080/api/products,12,0,1
+1782698477958,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-11,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,1
+1782698477968,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-11,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698478195,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-9,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,1
+1782698478209,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-9,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698478220,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-9,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,1
+1782698478232,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-9,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698478246,27,GET /api/products,500,,TG-01: Consulta de Catálogo 1-12,text,false,,257,188,1,2,http://localhost:8080/api/products,27,0,2
+1782698478245,31,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-9,text,false,,259,190,1,2,http://localhost:8080/api/products/1,30,0,0
+1782698478274,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-12,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698478280,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-12,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698478544,11,GET /api/products,500,,TG-01: Consulta de Catálogo 1-13,text,false,,257,188,1,1,http://localhost:8080/api/products,11,0,1
+1782698478555,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-13,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698478564,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-13,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,2
+1782698478595,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-10,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,1
+1782698478609,17,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-10,text,false,,259,190,1,1,http://localhost:8080/api/products/1,17,0,1
+1782698478627,14,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-10,text,false,,259,190,1,1,http://localhost:8080/api/products/1,14,0,1
+1782698478642,14,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-10,text,false,,259,190,1,1,http://localhost:8080/api/products/1,14,0,1
+1782698478657,15,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-10,text,false,,259,190,1,1,http://localhost:8080/api/products/1,15,0,1
+1782698478850,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-14,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698478859,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-14,text,false,,257,188,1,1,http://localhost:8080/api/products,10,0,1
+1782698478869,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-14,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698478995,16,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-11,text,false,,259,190,1,1,http://localhost:8080/api/products/1,16,0,2
+1782698479012,28,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-11,text,false,,259,190,1,1,http://localhost:8080/api/products/1,28,0,1
+1782698479041,16,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-11,text,false,,259,190,1,1,http://localhost:8080/api/products/1,16,0,1
+1782698479058,14,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-11,text,false,,259,190,1,1,http://localhost:8080/api/products/1,14,0,1
+1782698479073,15,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-11,text,false,,259,190,1,1,http://localhost:8080/api/products/1,14,0,1
+1782698479143,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-15,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698479151,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-15,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,1
+1782698479161,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-15,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,1
+1782698479397,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-12,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,3
+1782698479410,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-12,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,0
+1782698479423,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-12,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,1
+1782698479436,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-12,text,false,,259,190,1,2,http://localhost:8080/api/products/1,11,0,1
+1782698479448,21,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-12,text,false,,259,190,1,2,http://localhost:8080/api/products/1,21,0,1
+1782698479444,27,GET /api/products,500,,TG-01: Consulta de Catálogo 1-16,text,false,,257,188,1,1,http://localhost:8080/api/products,27,0,14
+1782698479471,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-16,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698479478,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-16,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698479746,15,GET /api/products,500,,TG-01: Consulta de Catálogo 1-17,text,false,,257,188,1,1,http://localhost:8080/api/products,15,0,3
+1782698479762,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-17,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698479771,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-17,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698479795,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-13,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,0
+1782698479808,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-13,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698479820,10,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-13,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,1
+1782698479830,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-13,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,2
+1782698479842,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-13,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698480054,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-18,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,2
+1782698480063,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-18,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,2
+1782698480073,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-18,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698480198,17,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-14,text,false,,259,190,1,1,http://localhost:8080/api/products/1,17,0,2
+1782698480216,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-14,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698480229,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-14,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698480241,24,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-14,text,false,,259,190,1,1,http://localhost:8080/api/products/1,24,0,9
+1782698480266,16,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-14,text,false,,259,190,1,1,http://localhost:8080/api/products/1,16,0,2
+1782698480351,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-19,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,2
+1782698480360,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-19,text,false,,257,188,1,1,http://localhost:8080/api/products,10,0,2
+1782698480371,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-19,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698480597,17,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-15,text,false,,259,190,1,1,http://localhost:8080/api/products/1,16,0,4
+1782698480616,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-15,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,1
+1782698480630,14,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-15,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,1
+1782698480644,16,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-15,text,false,,259,190,1,2,http://localhost:8080/api/products/1,15,0,2
+1782698480650,11,GET /api/products,500,,TG-01: Consulta de Catálogo 1-20,text,false,,257,188,1,2,http://localhost:8080/api/products,11,0,2
+1782698480661,11,GET /api/products,500,,TG-01: Consulta de Catálogo 1-20,text,false,,257,188,1,2,http://localhost:8080/api/products,10,0,1
+1782698480660,15,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-15,text,false,,259,190,1,2,http://localhost:8080/api/products/1,14,0,1
+1782698480672,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-20,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698480967,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-21,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698480974,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-21,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698480984,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-21,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698480996,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-16,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,0
+1782698481007,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-16,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,2
+1782698481020,10,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-16,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,0
+1782698481030,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-16,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698481041,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-16,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,1
+1782698481258,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-22,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698481265,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-22,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698481273,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-22,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698481396,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-17,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698481409,14,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-17,text,false,,259,190,1,1,http://localhost:8080/api/products/1,14,0,2
+1782698481424,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-17,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698481446,15,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-17,text,false,,259,190,1,1,http://localhost:8080/api/products/1,15,0,2
+1782698481462,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-17,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,1
+1782698481552,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-23,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,2
+1782698481560,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-23,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698481569,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-23,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698481796,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-18,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698481808,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-18,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698481821,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-18,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698481834,10,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-18,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,1
+1782698481845,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-18,text,false,,259,190,1,2,http://localhost:8080/api/products/1,11,0,0
+1782698481851,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-24,text,false,,257,188,1,1,http://localhost:8080/api/products,10,0,2
+1782698481861,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-24,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698481868,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-24,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698482157,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-25,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698482165,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-25,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698482171,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-25,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698482195,15,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-19,text,false,,259,190,1,1,http://localhost:8080/api/products/1,15,0,2
+1782698482211,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-19,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,1
+1782698482225,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-19,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698482238,21,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-19,text,false,,259,190,1,1,http://localhost:8080/api/products/1,21,0,2
+1782698482260,14,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-19,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,1
+1782698482457,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-26,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698482465,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-26,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698482472,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-26,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698482596,26,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-20,text,false,,259,190,1,1,http://localhost:8080/api/products/1,26,0,2
+1782698482623,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-20,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698482636,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-20,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,1
+1782698482647,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-20,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698482660,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-20,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698482761,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-27,text,false,,257,188,1,1,http://localhost:8080/api/products,10,0,1
+1782698482772,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-27,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698482779,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-27,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698482995,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-21,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698483007,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-21,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698483019,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-21,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698483031,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-21,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698483043,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-21,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,1
+1782698483058,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-28,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698483066,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-28,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698483075,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-28,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698483357,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-29,text,false,,257,188,1,1,http://localhost:8080/api/products,10,0,3
+1782698483367,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-29,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698483376,11,GET /api/products,500,,TG-01: Consulta de Catálogo 1-29,text,false,,257,188,1,1,http://localhost:8080/api/products,11,0,2
+1782698483413,29,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-22,text,false,,259,190,1,1,http://localhost:8080/api/products/1,28,0,8
+1782698483442,16,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-22,text,false,,259,190,1,1,http://localhost:8080/api/products/1,16,0,2
+1782698483459,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-22,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,2
+1782698483473,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-22,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698483486,14,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-22,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,1
+1782698483655,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-30,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698483663,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-30,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,2
+1782698483672,11,GET /api/products,500,,TG-01: Consulta de Catálogo 1-30,text,false,,257,188,1,1,http://localhost:8080/api/products,11,0,1
+1782698483796,18,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-23,text,false,,259,190,1,1,http://localhost:8080/api/products/1,18,0,2
+1782698483814,18,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-23,text,false,,259,190,1,1,http://localhost:8080/api/products/1,18,0,2
+1782698483833,14,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-23,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,1
+1782698483848,14,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-23,text,false,,259,190,1,1,http://localhost:8080/api/products/1,14,0,2
+1782698483863,18,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-23,text,false,,259,190,1,1,http://localhost:8080/api/products/1,17,0,2
+1782698483954,26,GET /api/products,500,,TG-01: Consulta de Catálogo 1-31,text,false,,257,188,1,1,http://localhost:8080/api/products,26,0,1
+1782698483981,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-31,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698483990,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-31,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,2
+1782698484195,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-24,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,2
+1782698484207,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-24,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698484219,17,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-24,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698484237,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-24,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698484248,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-24,text,false,,259,190,1,2,http://localhost:8080/api/products/1,13,0,1
+1782698484256,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-32,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,2
+1782698484266,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-32,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698484276,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-32,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698484554,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-33,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698484562,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-33,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698484569,5,GET /api/products,500,,TG-01: Consulta de Catálogo 1-33,text,false,,257,188,1,1,http://localhost:8080/api/products,5,0,1
+1782698484597,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-25,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698484609,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-25,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698484622,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-25,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698484634,10,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-25,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,1
+1782698484645,18,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-25,text,false,,259,190,1,1,http://localhost:8080/api/products/1,17,0,1
+1782698484851,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-34,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698484859,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-34,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698484866,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-34,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698484996,16,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-26,text,false,,259,190,1,1,http://localhost:8080/api/products/1,15,0,4
+1782698485012,28,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-26,text,false,,259,190,1,1,http://localhost:8080/api/products/1,28,0,2
+1782698485041,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-26,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698485053,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-26,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698485065,14,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-26,text,false,,259,190,1,1,http://localhost:8080/api/products/1,14,0,2
+1782698485151,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-35,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,2
+1782698485160,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-35,text,false,,257,188,1,1,http://localhost:8080/api/products,10,0,1
+1782698485170,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-35,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,2
+1782698485398,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-27,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698485411,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-27,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,1
+1782698485422,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-27,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,2
+1782698485434,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-27,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,2
+1782698485446,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-27,text,false,,259,190,1,2,http://localhost:8080/api/products/1,11,0,1
+1782698485449,11,GET /api/products,500,,TG-01: Consulta de Catálogo 1-36,text,false,,257,188,1,1,http://localhost:8080/api/products,11,0,4
+1782698485460,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-36,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,2
+1782698485467,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-36,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698485770,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-37,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698485777,11,GET /api/products,500,,TG-01: Consulta de Catálogo 1-37,text,false,,257,188,1,1,http://localhost:8080/api/products,10,0,2
+1782698485788,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-37,text,false,,257,188,1,2,http://localhost:8080/api/products,6,0,1
+1782698485796,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-28,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698485808,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-28,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,1
+1782698485819,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-28,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698485831,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-28,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698485843,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-28,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,2
+1782698486049,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-38,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698486057,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-38,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,2
+1782698486067,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-38,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698486197,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-29,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,2
+1782698486211,31,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-29,text,false,,259,190,1,1,http://localhost:8080/api/products/1,29,0,2
+1782698486245,14,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-29,text,false,,259,190,1,1,http://localhost:8080/api/products/1,14,0,2
+1782698486260,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-29,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698486272,14,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-29,text,false,,259,190,1,1,http://localhost:8080/api/products/1,14,0,1
+1782698486348,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-39,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698486355,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-39,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,2
+1782698486364,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-39,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698486595,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-30,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,2
+1782698486608,10,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-30,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,1
+1782698486619,10,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-30,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,1
+1782698486629,15,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-30,text,false,,259,190,1,1,http://localhost:8080/api/products/1,14,0,3
+1782698486644,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-30,text,false,,259,190,1,2,http://localhost:8080/api/products/1,11,0,1
+1782698486650,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-40,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,1
+1782698486659,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-40,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,1
+1782698486669,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-40,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698486945,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-41,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698486953,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-41,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698486959,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-41,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698486995,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-31,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,2
+1782698487008,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-31,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698487022,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-31,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698487034,10,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-31,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,1
+1782698487044,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-31,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698487248,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-42,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,2
+1782698487258,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-42,text,false,,257,188,1,1,http://localhost:8080/api/products,10,0,2
+1782698487269,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-42,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698487396,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-32,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,2
+1782698487408,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-32,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698487421,33,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-32,text,false,,259,190,1,1,http://localhost:8080/api/products/1,33,0,1
+1782698487454,27,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-32,text,false,,259,190,1,1,http://localhost:8080/api/products/1,27,0,1
+1782698487482,15,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-32,text,false,,259,190,1,1,http://localhost:8080/api/products/1,15,0,1
+1782698487549,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-43,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,2
+1782698487558,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-43,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698487566,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-43,text,false,,257,188,1,1,http://localhost:8080/api/products,10,0,2
+1782698487794,22,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-33,text,false,,259,190,1,1,http://localhost:8080/api/products/1,22,0,2
+1782698487816,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-33,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,2
+1782698487829,15,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-33,text,false,,259,190,1,1,http://localhost:8080/api/products/1,15,0,1
+1782698487845,15,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-33,text,false,,259,190,1,2,http://localhost:8080/api/products/1,15,0,1
+1782698487850,12,GET /api/products,500,,TG-01: Consulta de Catálogo 1-44,text,false,,257,188,1,2,http://localhost:8080/api/products,12,0,1
+1782698487862,11,GET /api/products,500,,TG-01: Consulta de Catálogo 1-44,text,false,,257,188,1,2,http://localhost:8080/api/products,11,0,2
+1782698487861,15,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-33,text,false,,259,190,1,2,http://localhost:8080/api/products/1,15,0,2
+1782698487874,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-44,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,2
+1782698488149,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-45,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698488157,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-45,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698488163,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-45,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698488201,17,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-34,text,false,,259,190,1,1,http://localhost:8080/api/products/1,16,0,2
+1782698488218,10,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-34,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,1
+1782698488229,10,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-34,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,1
+1782698488239,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-34,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698488251,9,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-34,text,false,,259,190,1,1,http://localhost:8080/api/products/1,9,0,1
+1782698488447,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-46,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698488455,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-46,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698488462,5,GET /api/products,500,,TG-01: Consulta de Catálogo 1-46,text,false,,257,188,1,1,http://localhost:8080/api/products,5,0,1
+1782698488597,10,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-35,text,false,,259,190,1,1,http://localhost:8080/api/products/1,9,0,1
+1782698488607,10,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-35,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,1
+1782698488618,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-35,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,1
+1782698488629,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-35,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698488640,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-35,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698488782,12,GET /api/products,500,,TG-01: Consulta de Catálogo 1-47,text,false,,257,188,1,1,http://localhost:8080/api/products,12,0,2
+1782698488795,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-47,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698488804,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-47,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698488996,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-36,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,2
+1782698489008,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-36,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,1
+1782698489019,16,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-36,text,false,,259,190,1,1,http://localhost:8080/api/products/1,16,0,1
+1782698489036,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-36,text,false,,259,190,1,2,http://localhost:8080/api/products/1,12,0,1
+1782698489047,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-48,text,false,,257,188,1,2,http://localhost:8080/api/products,8,0,2
+1782698489048,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-36,text,false,,259,190,1,2,http://localhost:8080/api/products/1,12,0,1
+1782698489056,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-48,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698489064,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-48,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698489345,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-49,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698489353,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-49,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698489362,11,GET /api/products,500,,TG-01: Consulta de Catálogo 1-49,text,false,,257,188,1,1,http://localhost:8080/api/products,11,0,1
+1782698489396,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-37,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698489408,15,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-37,text,false,,259,190,1,1,http://localhost:8080/api/products/1,15,0,1
+1782698489424,15,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-37,text,false,,259,190,1,1,http://localhost:8080/api/products/1,14,0,1
+1782698489439,14,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-37,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,1
+1782698489453,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-37,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698489649,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-50,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698489656,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-50,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698489663,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-50,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698489797,10,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-38,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,1
+1782698489808,10,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-38,text,false,,259,190,1,1,http://localhost:8080/api/products/1,9,0,1
+1782698489818,10,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-38,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,1
+1782698489828,10,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-38,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,1
+1782698489838,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-38,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698489949,5,GET /api/products,500,,TG-01: Consulta de Catálogo 1-51,text,false,,257,188,1,1,http://localhost:8080/api/products,5,0,1
+1782698489955,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-51,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698489961,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-51,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698490197,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-39,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698490212,14,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-39,text,false,,259,190,1,1,http://localhost:8080/api/products/1,14,0,2
+1782698490227,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-39,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,1
+1782698490241,14,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-39,text,false,,259,190,1,2,http://localhost:8080/api/products/1,14,0,1
+1782698490251,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-52,text,false,,257,188,1,2,http://localhost:8080/api/products,7,0,1
+1782698490256,17,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-39,text,false,,259,190,1,2,http://localhost:8080/api/products/1,17,0,1
+1782698490259,15,GET /api/products,500,,TG-01: Consulta de Catálogo 1-52,text,false,,257,188,1,1,http://localhost:8080/api/products,15,0,1
+1782698490275,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-52,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698490551,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-53,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698490558,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-53,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698490566,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-53,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698490602,16,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-40,text,false,,259,190,1,1,http://localhost:8080/api/products/1,16,0,2
+1782698490618,15,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-40,text,false,,259,190,1,1,http://localhost:8080/api/products/1,15,0,2
+1782698490633,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-40,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,2
+1782698490644,14,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-40,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,1
+1782698490658,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-40,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698490850,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-54,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698490858,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-54,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698490866,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-54,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698491004,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-41,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698491017,10,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-41,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,1
+1782698491028,15,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-41,text,false,,259,190,1,1,http://localhost:8080/api/products/1,14,0,1
+1782698491043,15,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-41,text,false,,259,190,1,1,http://localhost:8080/api/products/1,15,0,1
+1782698491058,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-41,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698491149,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-55,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698491156,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-55,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698491163,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-55,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698491409,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-42,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698491422,20,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-42,text,false,,259,190,1,1,http://localhost:8080/api/products/1,19,0,1
+1782698491442,20,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-42,text,false,,259,190,1,2,http://localhost:8080/api/products/1,20,0,2
+1782698491462,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-56,text,false,,257,188,1,2,http://localhost:8080/api/products,8,0,3
+1782698491463,19,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-42,text,false,,259,190,1,2,http://localhost:8080/api/products/1,19,0,1
+1782698491471,13,GET /api/products,500,,TG-01: Consulta de Catálogo 1-56,text,false,,257,188,1,2,http://localhost:8080/api/products,13,0,1
+1782698491484,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-56,text,false,,257,188,1,2,http://localhost:8080/api/products,10,0,1
+1782698491483,16,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-42,text,false,,259,190,1,1,http://localhost:8080/api/products/1,15,0,1
+1782698491747,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-57,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,2
+1782698491755,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-57,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698491762,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-57,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,2
+1782698491805,14,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-43,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,2
+1782698491819,14,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-43,text,false,,259,190,1,1,http://localhost:8080/api/products/1,14,0,2
+1782698491834,14,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-43,text,false,,259,190,1,1,http://localhost:8080/api/products/1,14,0,1
+1782698491849,15,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-43,text,false,,259,190,1,1,http://localhost:8080/api/products/1,15,0,2
+1782698491865,10,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-43,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,1
+1782698492048,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-58,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698492056,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-58,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698492062,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-58,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,2
+1782698492206,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-44,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698492219,10,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-44,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,1
+1782698492230,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-44,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698492242,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-44,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,2
+1782698492255,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-44,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698492348,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-59,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698492356,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-59,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,1
+1782698492366,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-59,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698492606,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-45,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,1
+1782698492620,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-45,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,1
+1782698492634,27,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-45,text,false,,259,190,1,1,http://localhost:8080/api/products/1,27,0,1
+1782698492662,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-45,text,false,,259,190,1,2,http://localhost:8080/api/products/1,13,0,2
+1782698492665,11,GET /api/products,500,,TG-01: Consulta de Catálogo 1-60,text,false,,257,188,1,2,http://localhost:8080/api/products,11,0,2
+1782698492677,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-60,text,false,,257,188,1,2,http://localhost:8080/api/products,8,0,1
+1782698492675,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-45,text,false,,259,190,1,2,http://localhost:8080/api/products/1,11,0,2
+1782698492685,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-60,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698492947,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-61,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698492955,13,GET /api/products,500,,TG-01: Consulta de Catálogo 1-61,text,false,,257,188,1,1,http://localhost:8080/api/products,13,0,1
+1782698492969,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-61,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698493004,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-46,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,2
+1782698493017,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-46,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,2
+1782698493028,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-46,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,2
+1782698493039,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-46,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698493051,10,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-46,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,1
+1782698493245,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-62,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,3
+1782698493254,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-62,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698493260,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-62,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698493404,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-47,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698493417,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-47,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698493429,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-47,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,2
+1782698493442,14,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-47,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,1
+1782698493456,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-47,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698493549,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-63,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698493557,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-63,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,1
+1782698493567,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-63,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698493805,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-48,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698493817,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-48,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,2
+1782698493828,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-48,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,2
+1782698493842,14,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-48,text,false,,259,190,1,2,http://localhost:8080/api/products/1,14,0,1
+1782698493844,13,GET /api/products,500,,TG-01: Consulta de Catálogo 1-64,text,false,,257,188,1,2,http://localhost:8080/api/products,13,0,6
+1782698493857,19,GET /api/products,500,,TG-01: Consulta de Catálogo 1-64,text,false,,257,188,1,2,http://localhost:8080/api/products,18,0,1
+1782698493856,25,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-48,text,false,,259,190,1,2,http://localhost:8080/api/products/1,24,0,1
+1782698493876,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-64,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,2
+1782698494145,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-65,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,2
+1782698494153,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-65,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698494160,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-65,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698494205,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-49,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698494217,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-49,text,false,,259,190,1,1,http://localhost:8080/api/products/1,10,0,1
+1782698494228,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-49,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,2
+1782698494240,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-49,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698494253,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-49,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,2
+1782698494446,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-66,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698494454,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-66,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698494463,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-66,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698494605,14,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-50,text,false,,259,190,1,1,http://localhost:8080/api/products/1,13,0,1
+1782698494619,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-50,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698494632,11,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-50,text,false,,259,190,1,1,http://localhost:8080/api/products/1,11,0,1
+1782698494643,13,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-50,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,2
+1782698494656,12,GET /api/products/1,500,, TG-02: Consulta de Producto Individual 2-50,text,false,,259,190,1,1,http://localhost:8080/api/products/1,12,0,1
+1782698494744,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-67,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,3
+1782698494753,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-67,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698494760,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-67,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698495047,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-68,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698495054,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-68,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698495060,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-68,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,2
+1782698495347,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-69,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698495355,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-69,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,2
+1782698495365,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-69,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698495644,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-70,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698495652,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-70,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698495660,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-70,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,1
+1782698495946,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-71,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698495954,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-71,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698495961,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-71,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698496259,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-72,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698496268,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-72,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698496276,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-72,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698496542,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-73,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698496549,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-73,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698496556,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-73,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698496843,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-74,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698496850,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-74,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,1
+1782698496859,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-74,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,2
+1782698497146,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-75,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698497154,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-75,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698497162,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-75,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698497470,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-76,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698497479,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-76,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,2
+1782698497488,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-76,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698497744,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-77,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,2
+1782698497754,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-77,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,2
+1782698497764,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-77,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698498052,12,GET /api/products,500,,TG-01: Consulta de Catálogo 1-78,text,false,,257,188,1,1,http://localhost:8080/api/products,12,0,3
+1782698498065,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-78,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,2
+1782698498075,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-78,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,2
+1782698498346,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-79,text,false,,257,188,1,1,http://localhost:8080/api/products,10,0,2
+1782698498357,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-79,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,1
+1782698498367,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-79,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,2
+1782698498644,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-80,text,false,,257,188,1,1,http://localhost:8080/api/products,10,0,3
+1782698498655,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-80,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,2
+1782698498664,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-80,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,1
+1782698498945,5,GET /api/products,500,,TG-01: Consulta de Catálogo 1-81,text,false,,257,188,1,1,http://localhost:8080/api/products,5,0,1
+1782698498950,3,GET /api/products,500,,TG-01: Consulta de Catálogo 1-81,text,false,,257,188,1,1,http://localhost:8080/api/products,3,0,0
+1782698498953,3,GET /api/products,500,,TG-01: Consulta de Catálogo 1-81,text,false,,257,188,1,1,http://localhost:8080/api/products,3,0,1
+1782698499243,4,GET /api/products,500,,TG-01: Consulta de Catálogo 1-82,text,false,,257,188,1,1,http://localhost:8080/api/products,4,0,0
+1782698499247,4,GET /api/products,500,,TG-01: Consulta de Catálogo 1-82,text,false,,257,188,1,1,http://localhost:8080/api/products,4,0,1
+1782698499251,45,GET /api/products,500,,TG-01: Consulta de Catálogo 1-82,text,false,,257,188,1,1,http://localhost:8080/api/products,44,0,0
+1782698499543,3,GET /api/products,500,,TG-01: Consulta de Catálogo 1-83,text,false,,257,188,1,1,http://localhost:8080/api/products,3,0,0
+1782698499546,3,GET /api/products,500,,TG-01: Consulta de Catálogo 1-83,text,false,,257,188,1,1,http://localhost:8080/api/products,3,0,1
+1782698499549,2,GET /api/products,500,,TG-01: Consulta de Catálogo 1-83,text,false,,257,188,1,1,http://localhost:8080/api/products,2,0,1
+1782698499843,4,GET /api/products,500,,TG-01: Consulta de Catálogo 1-84,text,false,,257,188,1,1,http://localhost:8080/api/products,4,0,0
+1782698499847,3,GET /api/products,500,,TG-01: Consulta de Catálogo 1-84,text,false,,257,188,1,1,http://localhost:8080/api/products,3,0,1
+1782698499850,3,GET /api/products,500,,TG-01: Consulta de Catálogo 1-84,text,false,,257,188,1,1,http://localhost:8080/api/products,3,0,1
+1782698500142,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-85,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698500149,4,GET /api/products,500,,TG-01: Consulta de Catálogo 1-85,text,false,,257,188,1,1,http://localhost:8080/api/products,4,0,1
+1782698500153,3,GET /api/products,500,,TG-01: Consulta de Catálogo 1-85,text,false,,257,188,1,1,http://localhost:8080/api/products,3,0,0
+1782698500444,3,GET /api/products,500,,TG-01: Consulta de Catálogo 1-86,text,false,,257,188,1,1,http://localhost:8080/api/products,3,0,1
+1782698500447,17,GET /api/products,500,,TG-01: Consulta de Catálogo 1-86,text,false,,257,188,1,1,http://localhost:8080/api/products,17,0,14
+1782698500464,3,GET /api/products,500,,TG-01: Consulta de Catálogo 1-86,text,false,,257,188,1,1,http://localhost:8080/api/products,3,0,1
+1782698500742,11,GET /api/products,500,,TG-01: Consulta de Catálogo 1-87,text,false,,257,188,1,1,http://localhost:8080/api/products,10,0,5
+1782698500753,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-87,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,1
+1782698500763,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-87,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698501049,26,GET /api/products,500,,TG-01: Consulta de Catálogo 1-88,text,false,,257,188,1,1,http://localhost:8080/api/products,15,0,1
+1782698501078,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-88,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698501087,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-88,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698501343,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-89,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698501350,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-89,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698501357,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-89,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698501644,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-90,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698501650,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-90,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698501656,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-90,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698501943,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-91,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698501950,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-91,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698501956,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-91,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698502243,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-92,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698502251,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-92,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698502258,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-92,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698502542,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-93,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698502550,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-93,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698502557,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-93,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698502843,12,GET /api/products,500,,TG-01: Consulta de Catálogo 1-94,text,false,,257,188,1,1,http://localhost:8080/api/products,11,0,3
+1782698502855,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-94,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698502863,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-94,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698503142,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-95,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698503149,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-95,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698503156,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-95,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698503457,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-96,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,1
+1782698503466,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-96,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698503473,12,GET /api/products,500,,TG-01: Consulta de Catálogo 1-96,text,false,,257,188,1,1,http://localhost:8080/api/products,12,0,2
+1782698503742,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-97,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698503749,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-97,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698503756,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-97,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698504042,7,GET /api/products,500,,TG-01: Consulta de Catálogo 1-98,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,2
+1782698504050,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-98,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698504056,8,GET /api/products,500,,TG-01: Consulta de Catálogo 1-98,text,false,,257,188,1,1,http://localhost:8080/api/products,7,0,1
+1782698504343,10,GET /api/products,500,,TG-01: Consulta de Catálogo 1-99,text,false,,257,188,1,1,http://localhost:8080/api/products,9,0,2
+1782698504353,11,GET /api/products,500,,TG-01: Consulta de Catálogo 1-99,text,false,,257,188,1,1,http://localhost:8080/api/products,10,0,1
+1782698504364,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-99,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698504646,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-100,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
+1782698504653,9,GET /api/products,500,,TG-01: Consulta de Catálogo 1-100,text,false,,257,188,1,1,http://localhost:8080/api/products,8,0,1
+1782698504662,6,GET /api/products,500,,TG-01: Consulta de Catálogo 1-100,text,false,,257,188,1,1,http://localhost:8080/api/products,6,0,1
