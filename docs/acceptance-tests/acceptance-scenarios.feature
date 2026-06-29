@@ -1,53 +1,52 @@
 Feature: Pruebas de aceptación de MiniShop
 
 Background:
-Given que el sistema MiniShop está en funcionamiento
-And la URL base del sistema es "http://localhost:8080"
+Given que la aplicación MiniShop está ejecutándose en "http://localhost:8080"
+And existen datos de prueba cargados en la base de datos
 
-Scenario: CA-01-01 - Ver catálogo con productos registrados
-Given que existen productos registrados en el sistema
+Scenario: CA-01-01 - Listar productos disponibles
+Given que existen productos registrados en MiniShop
 When el cliente realiza una petición GET a "/api/products"
 Then el sistema responde con código HTTP 200
-And la respuesta contiene una lista de productos con id, name, price y stock
+And la respuesta contiene una lista de productos
 
-Scenario: CA-01-02 - Ver catálogo vacío o sin productos disponibles
-Given que no existen productos registrados en el sistema
+Scenario: CA-01-02 - Verificar campos del catálogo
+Given que existen productos registrados en MiniShop
 When el cliente realiza una petición GET a "/api/products"
-Then el sistema responde con código HTTP 200
-And la respuesta contiene una lista vacía o un mensaje equivalente
+Then cada producto de la respuesta contiene los campos id, name, price y stock
 
 Scenario: CA-02-01 - Consultar producto existente por ID
 Given que existe un producto con ID 1
 When el cliente realiza una petición GET a "/api/products/1"
 Then el sistema responde con código HTTP 200
-And la respuesta contiene los datos del producto solicitado
+And la respuesta contiene los campos id, name, price y stock del producto
 
 Scenario: CA-02-02 - Consultar producto inexistente
 Given que no existe un producto con ID 9999
 When el cliente realiza una petición GET a "/api/products/9999"
-Then el sistema responde con código HTTP 404 o una respuesta equivalente de no encontrado
-And no devuelve datos de un producto inexistente
+Then el sistema responde con un error o mensaje de recurso no encontrado
+And no devuelve datos de un producto válido
 
-Scenario: CA-03-01 - Registrar producto con datos válidos
-Given que el administrador tiene los datos de un nuevo producto
-When realiza una petición POST a "/api/products" con name, price y stock válidos
+Scenario: CA-03-01 - Registrar producto válido
+Given que el administrador tiene los datos válidos de un producto
+When realiza una petición POST a "/api/products" con name, price y stock
 Then el sistema registra el producto
 And responde con los datos del producto creado
 
-Scenario: CA-03-02 - Registrar producto con datos incompletos
-Given que el administrador intenta registrar un producto sin nombre
-When realiza una petición POST a "/api/products" con datos incompletos
-Then el sistema debe rechazar la operación o evidenciar una validación
-And no debería crear un producto inválido
+Scenario: CA-03-02 - Registrar producto sin nombre
+Given que el administrador intenta registrar un producto sin el campo name
+When realiza una petición POST a "/api/products" con price y stock
+Then el sistema debe rechazar la operación
+And no debería registrar un producto incompleto
 
-Scenario: CA-04-01 - Verificar disponibilidad del servicio
-Given que MiniShop está desplegado localmente
-When el usuario accede a "http://localhost:8080/api/products"
-Then el sistema responde correctamente
-And la API se encuentra disponible para consultas
-
-Scenario: CA-04-02 - Verificar respuesta ante ruta incorrecta
+Scenario: CA-04-01 - Verificar ruta correcta de la API
 Given que MiniShop está en funcionamiento
-When el usuario realiza una petición GET a "/api/productos"
-Then el sistema no debe devolver el catálogo
-And debe responder con un error de ruta no encontrada o equivalente
+When el usuario accede a "/api/products"
+Then el sistema responde correctamente
+And se confirma que la ruta oficial de productos está disponible
+
+Scenario: CA-04-02 - Verificar ruta incorrecta
+Given que MiniShop está en funcionamiento
+When el usuario accede a "/api/productos"
+Then el sistema no devuelve el catálogo
+And responde con error de ruta no encontrada o equivalente
