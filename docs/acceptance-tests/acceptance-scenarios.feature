@@ -1,0 +1,7 @@
+- Historias de usuario
+- Criterios de aceptación
+- Tabla de ejecución
+- Tabla de defectos
+- Decisión del Product Owner
+- Preguntas de reflexión
+- Conclusiones
